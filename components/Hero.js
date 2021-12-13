@@ -11,18 +11,18 @@ export default function Hero() {
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-8000 dark:text-gray-200 my-2">
               Graphic Designer.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-800 dark:text-gray-200 my-2">
               Stream Operator.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Youtuber.
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-800 dark:text-gray-200 my-2">
+              Content Creator.
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
