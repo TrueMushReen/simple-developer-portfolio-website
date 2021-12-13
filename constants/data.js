@@ -52,7 +52,7 @@ const userData = {
     title:
       "I'm a graphic designer that loves making designs for fun while also working as a livestream operator.",
     description: [
-      `I've been making design since i was in middleschool. At that time, I made minecraft 3D rendering things and edit it using Photoshop and such. I have found my passion for graphic design when I was in highschool. I was looking at flat design of a laptop and decided to learn how to make it.`,
+      `I've been making design since I was in middleschool. At that time, I made minecraft 3D rendering things and edit it using Photoshop and such. I have found my passion for graphic design when I was in highschool. I was looking at flat design of a laptop and decided to learn how to make it.`,
       `Since then, I keep practicing and improving my skills. Although, I hit a few artblock which made me unable to make any more design, that includes out of fresh ideas. Hence, I start to look at other people's design to get me motivated and inspired. It was such a struggling times.`,
       `But now, I am confident enough to call myself a proper graphic designer. I've always dreamed to become a professional graphic desinger, I think that's what keeps me going until up to this point. I am using CorelDraw as my main software, though I also learned how to use Adobe Illustrator, Photoshop, GIMP, and Inkscape.`,
     ],
