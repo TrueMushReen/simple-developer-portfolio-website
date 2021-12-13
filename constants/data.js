@@ -8,19 +8,19 @@ const userData = {
   address: "Palembang, Sumatera Selatan, Indonesia.",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "Gamertag Banner",
+      /*link: "https://tailwindmasterkit.com",*/
+      imgUrl: "/mushreen.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Ziva Agen Pokat",
+      /*link: "https://placeholdertech.in",*/
+      imgUrl: "/ziva agen pokat.png",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "Banner Makrab FASILKOM",
+      /*link: "https://manuarora.in",*/
+      imgUrl: "/makrab.png",
     },
     {
       title: "CovidRescue",
