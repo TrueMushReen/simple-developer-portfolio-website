@@ -17,7 +17,7 @@ export default function Hero() {
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-800 dark:text-gray-200 my-2">
-              Livestreamer.
+              Live Operator.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
