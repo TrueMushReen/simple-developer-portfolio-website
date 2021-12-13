@@ -15,12 +15,12 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
+            {userData.about.title}. Currently a student at{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
+              href={userData.about.Url}
             >
-              {userData.about.currentProject} ✈️
+              {userData.about.currentUniv}
             </a>
           </p>
         </div>
@@ -34,14 +34,14 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
+                If you wanna know more about what I do, or have something for me to design, please reach me out via{" "}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  mail
+                  e-mail
                 </a>{" "}
-                and I'll get back. I swear.
+                and I'll answer it as soon as I saw it.
               </p>
             </div>
             <div className="mt-8">
@@ -49,8 +49,8 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
-                check my{" "}
+                I'm looking for a stable job currently, If you see me as a good candidate,
+                kindly check my{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -66,7 +66,7 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
+              {/*<div className="flex flex-row justify-start items-center ">
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
@@ -77,8 +77,8 @@ export default function AboutMe() {
                     Facebook
                   </p>
                 </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
+              </div>*/}
+              {/*<div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
@@ -89,7 +89,7 @@ export default function AboutMe() {
                     Twitter
                   </p>
                 </a>
-              </div>
+              </div>*/}
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
@@ -102,7 +102,7 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              {/*<div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
@@ -113,10 +113,10 @@ export default function AboutMe() {
                     LinkedIn
                   </p>
                 </a>
-              </div>
+              </div>*/}
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.twitter}
+                  href={userData.socialLinks.instagram}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -140,55 +140,27 @@ export default function AboutMe() {
             ))}
 
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
-              Tech Stack
+              Software Used
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                src="https://seeklogo.com/images/C/corel-draw-2020-logo-270FEE465B-seeklogo.com.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Photoshop_CC_icon.png/492px-Photoshop_CC_icon.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+                src="https://seeklogo.com/images/A/adobe-illustrator-cc-logo-C1DC5A6D09-seeklogo.com.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Inkscape_logo_2.svg/1024px-Inkscape_logo_2.svg.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                src="https://cdn.pixabay.com/photo/2020/03/20/21/04/gimp-4952017_960_720.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>
