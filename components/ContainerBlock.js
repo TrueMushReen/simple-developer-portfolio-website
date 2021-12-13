@@ -12,12 +12,14 @@ export default function ContainerBlock({ children, ...customMeta }) {
     description: `I've been creating Graphic Designs since I was in highschool. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
+
     ...customMeta,
   };
   return (
     <div>
       <Head>
         <title>{meta.title}</title>
+        <link rel="icon" href="/favicon.ico"/>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta
