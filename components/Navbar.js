@@ -85,16 +85,16 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="">
+          <Link href="/experience">
             <a
               className={`text-base  ${
-                router.asPath === ""
+                router.asPath === "/experience"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
-              Experience{" "}
-              {router.asPath === "" && (
+              Experience
+              {router.asPath === "/experience" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -111,7 +111,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="">
+          <Link href="/contact">
             <a
               className={`text-base  ${
                 router.asPath === "/contact"
@@ -120,7 +120,7 @@ export default function Navbar() {
               }`}
             >
               Contact
-              {router.asPath === "" && (
+              {router.asPath === "/contact" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

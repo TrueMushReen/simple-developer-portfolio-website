@@ -6,7 +6,7 @@ export default function Contact() {
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          Contact
+          Contact Me
         </h1>
       </div>
       <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
@@ -71,7 +71,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="social-icons flex flex-row space-x-8">
-              <a
+              {/*<a
                 href={userData.socialLinks.facebook}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
@@ -88,8 +88,8 @@ export default function Contact() {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
-              <a
+              </a>*/}
+              {/*<a
                 href={userData.socialLinks.twitter}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
@@ -108,7 +108,7 @@ export default function Contact() {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </a>*/}
               <a
                 href={userData.socialLinks.instagram}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
