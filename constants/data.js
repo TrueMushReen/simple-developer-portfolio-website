@@ -23,29 +23,44 @@ const userData = {
       imgUrl: "/makrab.png",
     },
     {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      title: "Banner Selamat Datang",
+      /*link: "https://covidrescue.co.in",*/
+      imgUrl: "/draft1.png",
     },
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
+      title: "Banner Pelantikan HMJ FASILKOM",
+      /*link: "https://algochurn.com",*/
+      imgUrl: "/pelantikan.png",
     },
     {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
+      title: "YOASOBI's Cover Album Banner",
+      /*link: "https://play.placeholdertech.in",*/
+      imgUrl: "/exu.jpg",
     },
     {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
+      title: "Instagram 3x1 Posts",
+      /*link: "https://feedmeback.vercel.app",*/
+      imgUrl: "/kelas5A.png",
     },
     {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      title: "Instagram Post",
+      /*link: "https://devmedium.vercel.app",*/
+      imgUrl: "/live ig.png",
+    },
+    {
+      title: "Trying out GFX in Photoshop",
+      /*link: "https://devmedium.vercel.app",*/
+      imgUrl: "/chen.jpg",
+    },
+    {
+      title: "FASILKOM Logo",
+      /*link: "https://devmedium.vercel.app",*/
+      imgUrl: "/logo fasilkom.png",
+    },
+    {
+      title: "Logo BEM",
+      /*link: "https://devmedium.vercel.app",*/
+      imgUrl: "/logo bem.png",
     },
   ],
   about: {
