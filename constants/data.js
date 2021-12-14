@@ -40,7 +40,7 @@ const userData = {
     {
       title: "Instagram 3x1 Posts",
       /*link: "https://feedmeback.vercel.app",*/
-      imgUrl: "/kelas5A.png",
+      imgUrl: "/kelas 5A.png",
     },
     {
       title: "Instagram Post",
