@@ -4,24 +4,24 @@ import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 
 export default function Hero() {
-  const colors = ["#7CD1B8", "#49FF00", "#F90716"];
+  const colors = ["#F05454", "#30475E", "#121212"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-800 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray200 dark:text-gray-200 my-2">
               Designer.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-800 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-200 dark:text-gray-200 my-2">
               Live Operator.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-800 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-200 dark:text-gray-200 my-2">
               Youtuber.
             </h1>
           </RainbowHighlight>
