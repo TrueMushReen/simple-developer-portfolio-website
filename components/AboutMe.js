@@ -102,7 +102,7 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
-              {/*<div className="flex flex-row justify-start items-center">
+              {<div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
@@ -113,7 +113,7 @@ export default function AboutMe() {
                     LinkedIn
                   </p>
                 </a>
-              </div>*/}
+              </div>}
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.instagram}
@@ -160,7 +160,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://cdn.pixabay.com/photo/2020/03/20/21/04/gimp-4952017_960_720.pnghttps://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/65/Microsoft_Office_logo_%282013%E2%80%932019%29.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
