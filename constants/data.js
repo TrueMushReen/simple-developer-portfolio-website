@@ -8,6 +8,12 @@ const userData = {
   address: "Palembang, Sumatera Selatan, Indonesia.",
   projects: [
     {
+      title: "Work and Study - Made using Adobe Illustrator",
+      /*link: "https://tailwindmasterkit.com",*/
+      imgUrl: "https://i.ibb.co/P9XLqCM/Work-and-Study.jpg",
+      alt: "Work-and-Study",
+    },
+    {
       title: "Gamertag Banner",
       /*link: "https://tailwindmasterkit.com",*/
       imgUrl: "/mushreen.png",
@@ -65,45 +71,73 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a graphic designer that loves making designs for fun while also working as a livestream operator.",
+      "A 21-year-old teenager who has a knack for Multimedia and Computer Networking.",
     description: [
-      `I've been making design since I was in middleschool. At that time, I made minecraft 3D rendering things and edit it using Photoshop and such. I have found my passion for graphic design when I was in highschool. I was looking at flat design of a laptop and decided to learn how to make it.`,
-      `Since then, I keep practicing and improving my skills. Although, I hit a few artblock which made me unable to make any more design, that includes out of fresh ideas. Hence, I start to look at other people's design to get me motivated and inspired. It was such a struggling times.`,
-      `But now, I am confident enough to call myself a proper graphic designer. I've always dreamed to become a professional graphic desinger, I think that's what keeps me going until up to this point. I am using CorelDraw as my main software, though I also learned how to use Adobe Illustrator, Photoshop, GIMP, and Inkscape.`,
+      `Previously served as chairman of the Student Executive Board's Multimedia Department in Universitas Sumatera Selatan. Now working as an administrative staff at Klinik Utama Ananda. Had led and participated in some Graphic Design projects. Most notable being the leader of Universitas Sumatera Selatan's Student Executive Board logo project. Also had been working freelance as a Live Broadcast Operator during COVID-19. Have a high work spirit and able to work as a team or individually. Not too diligent but gets the job done.`,
     ],
     currentUniv: "University of Sumatera Selatan",
     currentUnivUrl: "https://uss.ac.id",
   },
   experience: [
     {
-      title: "Live Operator",
+      title: "Administration Staff",
+      company: "Klinik Utama Ananda",
+      year: "2020 - Present",
+      companyLink: "",
+      desc: "Mainly taking care of taxes. Also responsible in archiving and making documents such as Profits and losses, Employees' Licenses, Birth Certificates, Employees' Paycheck, etc.",
+    },
+    {
+      title: "Multimedia Department Chairman",
+      company: "Badan Eksekutif Mahasiswa Universitas Sumatera Selatan",
+      year: "2021 - 2022",
+      companyLink: "https://bem.uss.ac.id",
+      desc: "Current side job right now. Working at weekends. Should be just enough to fill my pocket money.Manages social media account, supervising design and contents that will be posted on Universitas Sumatera Selatan's Student Executive Board social media account. Also a project leader in the making of its logo.",
+    },
+    {
+      title: "Live Broadcast Operator",
       company: "Lembaga Dakwah Islam Indonesia",
-      year: "2020",
+      year: "2020 - 2022",
       companyLink: "https://ldii.or.id",
       desc: "Current side job right now. Working at weekends. Should be just enough to fill my pocket money.",
     },
     {
-      title: "IT Staff",
+      title: "Multimedia Specialist",
       company: "Lab Komputer SMK Tri Sukses Natar",
       year: "2016-2019",
       companyLink: "https://smktrisukses.sch.id",
-      desc: "Contributed in my highschool's computer lab as an IT Technician.",
+      desc: "Working mainly as Computer Lab Staff, responsible for designing posters, brochures, and other things related to Graphic Design around the foundation.",
     },
     {
-      title: "Highschool",
-      company: "SMK Tri Sukses Natar, Lampung Selatan.",
+      title: "Computer Network Technician",
+      company: "Lab Komputer SMK Tri Sukses Natar",
       year: "2016-2019",
       companyLink: "https://smktrisukses.sch.id",
-      desc: "Major in Multimedia, I excel in Video Editing and Graphic Design.",
+      desc: "A side hustle as the Computer Lab Staff. Usually going around the foundation campus to check for router problems, installing new access points, configuring PCs to match with the local network's IP addresses, network admin, etc.",
+    },
+  ],
+  education: [
+    {
+      title: "Lorem Ipsum",
+      school: "Dolor sit amet",
+      year: "2022",
+      schoolLink: "",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    },
+    {
+      title: "Lorem Ipsum",
+      school: "Dolor sit amet",
+      year: "2021",
+      schoolLink: "",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
   ],
   resumeUrl:
-    "https://drive.google.com/drive/folders/1k-Vuh4RqlRa9KvD-oWAcmBaVtkVGQjxL?usp=sharing",
+    "https://drive.google.com/file/d/128gPLl_MqWps8466vfvtc8dTa5JFFjAv/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/mush_reen",
     /*twitter: "https://twitter.com/mannupaaji",*/
-    /*linkedin: "https://linkedin.com/in/manuarora28",*/
-    github: "https://github.com/truemushreen",
+    linkedin: "https://linkedin.com/in/mhk354",
+    github:   "https://github.com/truemushreen",
     /*facebook: "https://facebook.com/",*/
   },
 };

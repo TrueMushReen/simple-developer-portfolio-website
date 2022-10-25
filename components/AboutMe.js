@@ -6,7 +6,7 @@ export default function AboutMe() {
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          About Me.
+          Summary
         </h1>
       </div>
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
@@ -15,7 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title} Currently a student at{" "}
+            {userData.about.title} Currently a Computer Science student at{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentUnivUrl}
@@ -140,7 +140,7 @@ export default function AboutMe() {
             ))}
 
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
-              Software Used
+              Skills
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
@@ -160,7 +160,11 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://cdn.pixabay.com/photo/2020/03/20/21/04/gimp-4952017_960_720.png"
+                src="https://cdn.pixabay.com/photo/2020/03/20/21/04/gimp-4952017_960_720.pnghttps://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://obsproject.com/assets/images/new_icon_small-r.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>
