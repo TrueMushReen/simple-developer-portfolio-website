@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "TrueMushReen",
   name: "Muhammad Hadi Khoirulloh",
   designation: "Freelance Graphic Designer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "https://media-exp1.licdn.com/dms/image/D5603AQFukYE4qi-CbA/profile-displayphoto-shrink_800_800/0/1666620707857?e=1672272000&v=beta&t=fwg7C85bsWk3jDtBf0RqqPDKKHaL3FoTO8v-FJtHd_g",
   email: "muhammadhadikhoirulloh17@gmail.com",
   phone: "+62 89616010993",
   address: "Palembang, Sumatera Selatan, Indonesia.",
