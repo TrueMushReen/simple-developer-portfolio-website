@@ -2,7 +2,7 @@ import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
 import Education from "../components/education";
 
-export default function education() {
+export default function Education() {
   return (
     <ContainerBlock title="Education - Muhammad Hadi Khoirulloh">
       <Education />
